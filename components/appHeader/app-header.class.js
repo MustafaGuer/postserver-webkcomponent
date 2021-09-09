@@ -1,12 +1,12 @@
 const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
     <style>
-        @import url('http://${location.host}/components/appHeader/app-header.css');
+        @import url('http://${location.host}/postserver-webkcomponent/components/appHeader/app-header.css');
     </style>
 
     <header>Adress Suche nach PLZ und Stadt</header>
 `;
-
+// /postserver-webkcomponent
 class AppHeader extends HTMLElement {
     
     
